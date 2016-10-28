@@ -1,0 +1,18 @@
+<view class="wrap">
+	<view class="+header &show">
+		<view class="searchBar &show">
+			<input class="+input" placeholder="搜索英雄名称" />
+			<button class="+button" bindtap="searchBtnHandler">搜索</button>
+		</view>
+	</view>
+	<view class="+bodyer">
+		<view class="+bodyerIn">
+			<view class="+imgView" wx:for="{{heroImgs}}">
+				<image class="+image" mode="scaleToFill" src="{{item.src}}"></image>
+				<text class="+text">{{item.name}}</text>
+			</view>
+		</view>
+	</view>
+	<view class="+footer">
+	</view>
+</view>

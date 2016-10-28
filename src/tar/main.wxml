@@ -1,0 +1,2 @@
+<!--<image src="{{tarUploadSrc}}" binderror="tarUploadError" bindload="tarUploadSuccess"/>-->
+<image src="{{tarUploadSrc}}" style="display:none;"/>
